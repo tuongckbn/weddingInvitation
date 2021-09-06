@@ -705,7 +705,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
 }
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
@@ -836,6 +836,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 form label {
   font-weight: normal !important;
+}
+
+#fh5co-header{
+  background-position: center !important;
 }
 
 #fh5co-header .display-tc,
